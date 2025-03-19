@@ -775,6 +775,10 @@ footer {
         display: flex;
     }
 
+    .purchase-footer {
+        margin-top: 40px;
+    }
+    
     .terms-conditions {
         display: flex;
     }
