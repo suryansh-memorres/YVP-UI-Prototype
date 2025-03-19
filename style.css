@@ -639,8 +639,7 @@ footer {
         margin-top: 84.75px;
     }
 
-    .col-6,
-    .instant-match {
+    .col-6, .instant-match {
         width: 353px;
         display: block;
         margin: 0;
