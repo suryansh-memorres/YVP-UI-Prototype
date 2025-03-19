@@ -535,11 +535,17 @@ footer {
 }
 
 .call-div {
+    width: 118px
     margin-right: 146px;
 }
 
 .footer-cont-deet {
+    width: 118px
     margin-top: 12px;
+}
+
+.easy-gmail {
+    width: 169px;
 }
 
 .sponsor-img {
@@ -775,12 +781,17 @@ footer {
         display: flex;
     }
 
+    .easy-gmail {
+        width: 163px;
+    }
+
     .purchase-footer {
         margin-top: 40px;
     }
     
     .terms-conditions {
         display: flex;
+        margin-bottom : 16px;
     }
 
     .footer-text {
