@@ -608,10 +608,6 @@ footer {
         margin-left: 20px;
     }
 
-    .container2-1 {
-        margin-top: 100px;
-    }
-
     .navMenu {
         display: none;
     }
@@ -623,35 +619,24 @@ footer {
     .coaching-section {
         display: block;
         width: fit-content;
-        margin-top: 0px;
     }
 
-    .helping-you {
-        width: 353px;
-    }
-
-    .coaching-bio {
-        width: 353px;
-    }
-
-    .service-imgs {
+    .service-card {
         margin-top: 30px;
     }
 
-    .fgp-titles {
-        margin-bottom: 30px;
+    .indivi-service-card {
+        margin-top: 30px;
     }
 
     .coaching-div {
         display: block;
-        /* margin-top: 100px; */
     }
 
     .main-content {
         display: block;
         margin: 20px;
         margin-top: 84.75px;
-        margin-left: 0px;
     }
 
     .col-6,
