@@ -82,7 +82,7 @@ h4 {
 
 .container2 {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     text-align: center;
     width: 100%;
     min-height: auto;
@@ -93,7 +93,7 @@ h4 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 100%; 
     margin: 0 auto;
     width: 754px;
     margin-top: 100px;
@@ -101,10 +101,10 @@ h4 {
 
 .container2-1 {
     display: flex;
-    justify-content: center;
+    justify-content: center;  
     text-align: center;
     width: 100%;
-    min-height: auto;
+    min-height: auto; 
 }
 
 .helping-you {
@@ -132,7 +132,7 @@ h4 {
 }
 
 .col-6:last-child img {
-    max-height: 100%;
+    max-height: 100%; 
     object-fit: contain;
 }
 
@@ -172,8 +172,8 @@ img {
 
 .button-container {
     display: flex;
-    align-items: center;
-    gap: 20px;
+    align-items: center; 
+    gap: 20px; 
 }
 
 button {
@@ -239,10 +239,10 @@ p {
 .service-card {
     font-family: 'DM Sans', sans-serif;
     display: flex;
-    width: 90%;
+    width:90%;
     background-color: #FBF8FC;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-right: 20px  ;
     transition: all .15s ease;
     cursor: pointer;
 }
@@ -254,6 +254,7 @@ p {
 .indivi-service-card {
     display: block;
     margin: 40px;
+    justify-content: flex-start;
 }
 
 .service-imgs {
@@ -307,7 +308,7 @@ p {
     display: flex;
     text-align: center;
     min-height: auto;
-    margin-top: 100px;
+    margin-top: 100px; 
     background-color: #fafafa;
     padding: 30px;
     gap: 30px;
@@ -323,29 +324,29 @@ p {
 }
 
 .list-details {
-    flex-grow: 1;
+     flex-grow: 1;
 }
 
 .list-details li {
-    text-align: left;
+    text-align: left; 
 }
 
 .prod-print-tray {
-    width: 254px;
+    width: 254px;   
     height: 279px;
 }
 
 .outright-purchase {
-    display: block;
+    display: block; 
 }
 
 .price {
-    display: block;
-    font-size: 1.2em;
+    display: block; 
+    font-size: 1.2em; 
 }
 
 .right-align {
-    margin-left: auto;
+    margin-left: auto; 
     display: flex;
     align-items: center;
     gap: 8px;
@@ -360,8 +361,8 @@ p {
 
 .button-container-flex-right {
     display: flex;
-    align-items: flex-end;
-    gap: 20px;
+    align-items: flex-end; 
+    gap: 20px; 
 }
 
 .new-prod-txt {
@@ -485,7 +486,7 @@ h5 {
 footer {
     background-color: #3C3046;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 
 .footer-separator {
@@ -493,7 +494,7 @@ footer {
     padding-right: 101px;
     padding-bottom: 63.5px;
     padding-left: 100px;
-}
+} 
 
 .cont-priv-details {
     display: block;
@@ -565,8 +566,8 @@ footer {
 .footer-text {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: space-between; 
+    gap: 10px; 
     font-size: 14px;
     margin-top: 38px;
 }
@@ -580,8 +581,8 @@ footer {
 }
 
 .footer-text a {
-    color: white;
-    text-decoration: none;
+    color: white; 
+    text-decoration: none; 
 }
 
 @media (max-width: 48em) {
@@ -595,172 +596,139 @@ footer {
         font-size: 14px;
         width: 100%;
     }
-
     .container {
         /* width: 50%;
         padding: 10px; */
         margin-top: 67px;
     }
-
-    .navMenu {
-        display: none;
-    }
-
     .container2 {
         justify-content: flex-start;
         margin-left: 20px;
     }
-    
+    .navMenu {
+        display: none;
+    }
     .schedule-font {
         display: none;
     }
-
     .coaching-section {
         display: block;
     }
-
     .coaching-div {
         display: block;
     }
-
     .main-content {
         display: block;
         margin: 20px;
         margin-top: 84.75px;
     }
-
-    .col-6,
-    .instant-match {
+    .col-6, .instant-match {
         width: 353px;
         display: block;
         margin: 0;
         width: 149px;
         margin-bottom: 0;
     }
-
+    .printer-find {
+        size: 30px;
+    }
     .about-instant-match {
         width: 353px;
     }
-
     h3 {
         width: 100%;
     }
-
     .lady-printing {
         display: none;
     }
-
     .button-container {
         display: block;
     }
-    
     .find-get-price {
         display: block;
         width: fit-content;
     }
-
     .service-card {
         display: block;
         width: fit-content;
     }
-
     .dual-abouts {
         display: block;
     }
-
     .container3 {
         display: block;
         margin-top: 50px;
         background-color: white;
         padding: 0px;
     }
-
     .prod-print-tray {
         width: fit-content;
         height: fit-content;
     }
-
     .prod-name {
         margin-top: 10px;
     }
-
     .price-know-more {
         display: block;
     }
-
     .right-align {
         margin-left: 0px;
     }
-
     .button-container-flex-right {
         display: grid;
     }
-
     .deets-n-form {
         border: none;
         padding: 0px;
     }
-
     .form-prod-details {
         display: flex;
     }
-
     .internal-det-prod {
         display: block;
     }
-
     .form-row {
         display: grid;
     }
-
     .input-field {
         flex-direction: column;
     }
-
     .continue-btn {
         margin-top: 10px;
         display: flex;
         justify-content: end;
     }
-
     .footer-separator {
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 48px;
         padding-bottom: 48px;
     }
-
     .footer-img-button {
         display: block;
         margin-bottom: 32px;
     }
-
     .footer-btn {
         display: block;
     }
-
     .contact-sponsor-details {
         display: block;
     }
-
     .button-bg {
         margin-top: 32px;
         margin-bottom: 16px;
     }
-
     .align-set {
         padding-left: 0px;
-        display: block;
+        /* display: block; */
+        margin-right: 0px;
     }
-
     .cont-details {
         display: flex;
     }
-
     .terms-conditions {
         display: flex;
     }
-
     .footer-text {
         display: block;
     }
