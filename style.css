@@ -650,6 +650,10 @@ footer {
         display: none;
     }
 
+    .button-container {
+        display: block;
+    }
+    
     .find-get-price {
         display: block;
         width: fit-content;
