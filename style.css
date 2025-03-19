@@ -313,6 +313,7 @@ p {
     padding: 30px;
     gap: 30px;
     margin-bottom: 100px;
+    border-radius: 10px;
 }
 
 .prod-detail {
@@ -401,6 +402,7 @@ h5 {
 }
 
 .deets-n-form {
+    display: block;
     border-color: #D0D0D2;
     border: 1px;
     border-radius: 10px;
@@ -425,12 +427,13 @@ h5 {
 }
 
 .form-row {
-    display: flexbox;
+    display: flex;
     justify-content: space-between;
     align-items: left;
-    min-width: fit-content;
+    min-width: auto;
     flex-grow: 1;
     margin-bottom: 16px;
+    gap: 16px;
 }
 
 .radio-ques {
@@ -459,7 +462,7 @@ h5 {
 .input-field {
     width: 386px;
     height: 48px;
-    margin-right: 16px;
+    /* margin-right: 16px; */
     justify-content: space-between;
 }
 
@@ -594,7 +597,7 @@ footer {
 @media screen and (max-width: 768px) {
     body {
         font-size: 14px;
-        width: 100%;
+        width: 393px;
     }
 
     .container {
@@ -605,7 +608,7 @@ footer {
 
     .container2 {
         justify-content: flex-start;
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
 
     .navMenu {
@@ -646,6 +649,11 @@ footer {
         margin: 0;
         width: 149px;
         margin-bottom: 0;
+    }
+
+    .about-easy {
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .printer-find {
@@ -696,6 +704,7 @@ footer {
     .prod-print-tray {
         width: fit-content;
         height: fit-content;
+        width: 353px;
     }
 
     .prod-name {
@@ -750,6 +759,10 @@ footer {
         justify-content: end;
     }
 
+    footer {
+        width: fit-content;
+    }
+
     .footer-separator {
         padding-left: 20px;
         padding-right: 20px;
@@ -759,11 +772,15 @@ footer {
 
     .footer-img-button {
         display: block;
-        margin-bottom: 32px;
+        margin-bottom: 14.43px;
     }
 
     .footer-btn {
         display: block;
+    }
+
+    .speak-button {
+        width: 353px;
     }
 
     .contact-sponsor-details {
@@ -773,6 +790,7 @@ footer {
     .button-bg {
         margin-top: 32px;
         margin-bottom: 16px;
+        width: 353px;
     }
 
     .align-set {
@@ -783,6 +801,11 @@ footer {
 
     .cont-details {
         display: flex;
+        width: max-content;
+    }
+
+    .call-div {
+        margin-right: 106px;
     }
 
     .purchase-footer {
@@ -791,6 +814,7 @@ footer {
 
     .terms-conditions {
         display: flex;
+        margin-bottom: 16px;
     }
 
     .footer-text {
