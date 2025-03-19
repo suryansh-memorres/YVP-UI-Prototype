@@ -243,7 +243,6 @@ p {
     background-color: #FBF8FC;
     border-radius: 10px;
     margin-right: 20px  ;
-    transition: all .15s ease;
     cursor: pointer;
 }
 
