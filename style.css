@@ -535,17 +535,11 @@ footer {
 }
 
 .call-div {
-    width: 118px
     margin-right: 146px;
 }
 
 .footer-cont-deet {
-    width: 118px
     margin-top: 12px;
-}
-
-.easy-gmail {
-    width: 169px;
 }
 
 .sponsor-img {
@@ -645,7 +639,8 @@ footer {
         margin-top: 84.75px;
     }
 
-    .col-6, .instant-match {
+    .col-6,
+    .instant-match {
         width: 353px;
         display: block;
         margin: 0;
@@ -726,18 +721,27 @@ footer {
 
     .form-prod-details {
         display: flex;
+        max-width: 353px;
     }
 
     .internal-det-prod {
+        width: 244px;
         display: block;
+    }
+
+    .sale-detail {
+        width: 244px;
+        margin-right: 30px;
     }
 
     .form-row {
         display: grid;
+        margin-bottom: 0px;
     }
 
     .input-field {
         flex-direction: column;
+        margin-bottom: 16px;
     }
 
     .continue-btn {
@@ -781,17 +785,12 @@ footer {
         display: flex;
     }
 
-    .easy-gmail {
-        width: 163px;
-    }
-
     .purchase-footer {
         margin-top: 40px;
     }
-    
+
     .terms-conditions {
         display: flex;
-        margin-bottom : 16px;
     }
 
     .footer-text {
